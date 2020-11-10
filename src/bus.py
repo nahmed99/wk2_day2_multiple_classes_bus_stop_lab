@@ -9,3 +9,7 @@ class Bus:
     
     def drive(self):
         return "Brum brum"
+
+
+    def passenger_count(self):
+        return len(self.passengers)
