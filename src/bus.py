@@ -28,6 +28,8 @@ class Bus:
 
 
     def pick_up_from_stop(self, bus_stop_1):
+
+        # ALL of the passengers at the bus stop need to board the bus!
         for passenger in bus_stop_1.queue:
             self.passengers.append(passenger)
 
