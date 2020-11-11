@@ -30,3 +30,6 @@ class Bus:
     def pick_up_from_stop(self, bus_stop_1):
         for passenger in bus_stop_1.queue:
             self.passengers.append(passenger)
+
+        # clear the bus stop - as ALL passangers have boarded the bus
+        bus_stop_1.clear()
